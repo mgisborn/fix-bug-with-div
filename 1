@@ -1,0 +1,18 @@
+window.addEventListener("keydown", (eventk) => {
+    switch(eventk.key) {
+      case "ArrowUp":
+        circle.y = circle.y - STEP;
+        break;
+        case "ArrowDown":
+        circle.y = circle.y + STEP;
+        break;
+        case "ArrowLeft":
+        circle.x = circle.x - STEP;
+        break;
+        case "ArrowRight":
+        circle.x = circle.x + STEP;
+        break;        
+    }
+  })
+  
+  var iddiv = document.getElementByTag('div').firstChild.innerHTML;
